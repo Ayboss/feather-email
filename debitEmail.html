@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+        *,
+        *::before,
+        *::after{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        body{
+            background-color: #F0F0F0;
+            font-family: "Poppins";
+        }
+        .body-custom{
+            text-align: center;
+        }
+        .innermail{
+            width: 50%;
+            margin: 0px auto;
+            background-color: #fff;
+        }
+        .header{
+            background-color: #E00070;
+            
+            color: #fff;
+            text-align: center;
+            padding: 30px 30px;
+        }
+        .header p {
+            font-size: 41px;
+            font-weight: bold;
+        }
+        .content{
+            text-align: center;
+            border-bottom: 1px solid #D9D9D9;
+            padding: 54px 70px;
+            line-height: 32px;
+        }
+      
+        .footer{
+            text-align: center;
+            padding: 26px 10px;
+
+        }
+        .name{
+            font-weight: bold;
+        }
+        .otp{
+            margin: 15px 0px;
+            font-size: 54px;
+            font-weight: bold;  
+            color: #001757;
+        }
+        .subtext{
+            color: #8D8D8D;
+            margin-bottom: 10px;
+        }
+        .link{
+            color: #00C9AA;
+            text-decoration: none;
+        }
+        .reference{}
+        .reference-value{
+            font-size: 41px;
+            font-weight: bold;
+            margin: 10px 0px;
+        }
+        table{
+            margin: 30px 10px;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .table-row td{
+            border-bottom: 1px solid rgba(112, 112, 112, .3);
+        }
+        tr td{
+            padding: 30px 0px;
+        }
+        .table-title{
+            text-align: left;
+
+        }
+        .table-value{
+            text-align: right;
+            font-weight: bold;
+            font-size: 19px;
+        }
+        .table-new-balance{
+            color: #003AD6
+        }
+    </style>
+</head>
+<body>
+    <div class="body-custom">
+        <img
+            src="https://res.cloudinary.com/gyroscope/image/upload/v1647941538/feather-transaction_qeslnn.svg"
+            alt=""
+            width="200px"
+            style="margin-top: 20px;margin-bottom: 20px"
+        />
+        <div class="innermail">
+            <div class="header">
+                <p>NGN 35,000.00</p>
+                <p style="font-size: 21px; font-weight:normal;">Has left your primary wallet</p>
+            </div>
+            <div class="content">
+                <p class="reference">Transaction Reference</p>
+                <p class="reference-value">0FCvAHD4ss</p>
+
+                <table>
+                    <tr class="table-row">
+                        <td class="table-title">Date</td>
+                        <td class="table-value">Thursday, April 11, 2022 - 4:35pm</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-title">Receiver</td>
+                        <td class="table-value">@suzzy_bcroft - Susan Ajayi</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-title">Amount</td>
+                        <td class="table-value">NGN 35,000.00</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-title">Charges</td>
+                        <td class="table-value">NGN 0.00</td>
+                    </tr>
+                    <tr class="table-row">
+                        <td class="table-title">Total</td>
+                        <td class="table-value">NGN 35,000.00</td>
+                    </tr>
+                    <tr>
+                        <td class="table-title">New Balance</td>
+                        <td class="table-value table-new-balance">NGN 145,550.00</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="footer">
+                <p class="subtext">Any issues? Send a mail to</p>
+                <a class="link" href="mailto:support@feather.africa">support@feather.africa</a>
+            </div>
+        </div>
+        <p style="margin-top:30px; margin-bottom:10px">Feather Africa Inc. 2022</p>
+        <p>For more information visit : <a class="link" href="https://www.feather.africa">www.feather.africa</a></p>
+    </div>
+</body>
+</html>
